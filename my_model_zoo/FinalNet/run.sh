@@ -1,0 +1,1 @@
+python 'my_model_zoo/FinalNet/run_finalnet.py' --config 'my_model_zoo/FinalNet/config' --expid FINAL_movielenslatest_x1_014_50fc5f7f --gpu 0

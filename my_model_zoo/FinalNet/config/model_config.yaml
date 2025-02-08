@@ -1,0 +1,38 @@
+FINAL_movielenslatest_x1_014_50fc5f7f:
+    batch_size: 4096
+    block1_dropout: 0
+    block1_hidden_activations: ReLU
+    block1_hidden_units: [400, 400]
+    block2_dropout: 0
+    block2_hidden_activations: ReLU
+    block2_hidden_units: [500]
+    block_type: 2B
+    dataset_id: csv_default
+    debug_mode: false
+    early_stop_patience: 2
+    embedding_dim: 10
+    embedding_regularizer: 0.01
+    epochs: 100
+    eval_interval: 1
+    feature_specs: null
+    group_id: null
+    learning_rate: 0.001
+    loss: binary_crossentropy
+    metrics: [AUC, logloss]
+    model: FinalNet
+    model_id: FINAL_default
+    model_root: output/FinalNet/
+    monitor: AUC
+    monitor_mode: max
+    net_regularizer: 0
+    batch_norm: True
+    num_workers: 3
+    optimizer: adam
+    ordered_features: null
+    pickle_feature_encoder: true
+    save_best_only: true
+    seed: 2021
+    shuffle: true
+    task: binary_classification
+    use_field_gate: true
+    verbose: 1

@@ -1,0 +1,1 @@
+python 'my_model_zoo/AutoInt/run_autoint.py' --config 'my_model_zoo/Autoint/config' --expid AutoInt_movielenslatest_x1_004_4795ccb3 --gpu 0
