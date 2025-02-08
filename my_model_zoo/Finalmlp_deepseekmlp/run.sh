@@ -1,0 +1,1 @@
+python 'my_model_zoo/Finalmlp_deepseekmlp/run_finalmlp.py' --config 'my_model_zoo/Finalmlp_deepseekmlp/config' --expid FinalMLP_movielenslatest_x1_004_498f3e4f --gpu 0

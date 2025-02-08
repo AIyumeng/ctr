@@ -3,3 +3,6 @@ ipynb/
 data/
 output/
 .vscode/
+
+*.pyc
+*/__pycache__/
