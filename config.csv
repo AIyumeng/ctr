@@ -1,0 +1,1 @@
+ 20250208-101349,[command] python my_model_zoo/Finalmlp/run_finalmlp.py --config my_model_zoo/Finalmlp/config --expid FinalMLP_movielenslatest_x1_004_498f3e4f --gpu 0,[exp_id] FinalMLP_movielenslatest_x1_004_498f3e4f,[dataset_id] csv_default,[train] N.A.,[val] AUC: 0.971465 - logloss: 0.211186,[test] AUC: 0.971129 - logloss: 0.212639
